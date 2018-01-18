@@ -1,0 +1,28 @@
+body {
+    font-size: 14px;
+    color: #548DD4;
+}
+
+.wrapper {
+    width: 35px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.fadeIn {
+    padding: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: fadeInAnimation 3s ease-in;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
